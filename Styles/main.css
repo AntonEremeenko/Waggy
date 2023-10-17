@@ -1,0 +1,177 @@
+.top_header span {
+  color: #908F8D;
+  font-family: 'Montserrat';
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+}
+.contacts-for-header {
+  color: #41403E;
+  font-family: Chilanka;
+  font-size: 19px;
+  font-weight: 400;
+  letter-spacing: 0.19px;
+  text-decoration: none;
+}
+.bottom_header {
+  color: #41403E;
+  font-family: Chilanka;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.19px;
+}
+.bottom_header ul li a {
+  color: #41403E;
+  text-decoration: none;
+}
+.promotions-for-slider {
+  color: #DEAD6F;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 1.8px;
+}
+.carousel-caption h2 {
+  color: #41403E;
+  font-family: Chilanka;
+  font-size: 88px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 2.64px;
+}
+.carousel-caption h2 span {
+  color: #DEAD6F;
+  font-family: Chilanka;
+  font-size: 88px;
+  font-weight: 400;
+  letter-spacing: 2.64px;
+}
+ button {
+  color: #41403E;
+  font-family: Chilanka;
+  font-size: 19px;
+  font-weight: 400;
+  letter-spacing: 0.38px;
+}
+.shops a {
+  color: #41403E;
+  font-family: Chilanka;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.26px;
+  text-decoration: none;
+}
+.container h3 {
+  color: #41403E;
+  font-family: Chilanka;
+  font-size: 55px;
+  font-weight: 400;
+  letter-spacing: 0.55px;
+}
+.container h4 {
+  color: #41403E;
+  font-family: Chilanka;
+  font-size: 26px;
+  font-weight: 400;
+  letter-spacing: 0.26px;
+}
+.price {
+  color: #DEAD6F;
+  font-family: Montserrat;
+  font-size: 26px;
+  font-weight: 300;
+  letter-spacing: 0.26px;
+}
+.button-for-catalogs {
+  font-size: 17px;
+  letter-spacing: 0.34px;
+}
+.nav-for-pet-foodies a {
+  color: #41403E;
+  font-family: Chilanka;
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: 0.34px;
+  text-decoration: none;
+}
+.promotion-for-banner {
+    color: #DEAD6F;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 300;
+}
+.banner-sale-caption h2 {
+  color: #41403E;
+  font-family: Chilanka;
+  font-size: 75px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+}
+.reviews-caption {
+  color: #908F8D;
+  font-family: Chilanka;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 150%; /* 54px */
+}
+.reviews-caption span {
+  color: #41403E;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 500;
+}
+.container-full-weight h3 {
+  color: #41403E;
+  text-align: center;
+  font-family: Chilanka;
+  font-size: 55px;
+  font-weight: 400;
+  letter-spacing: 0.55px;
+}
+.discount-for-first-purchase {
+  color: #DEAD6F;
+}
+.registration button {
+  color: #FFF;
+  font-family: Chilanka;
+  font-size: 19px;
+  font-weight: 400;
+  letter-spacing: 0.38px;
+}
+.blog-posts p {
+  color: #908F8D;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+}
+.blog-posts a {
+  color: #908F8D;
+  font-family: Chilanka;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.32px;
+  text-decoration: none;
+}
+.informations p {
+  color: #908F8D;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+}
+footer .container p {
+  color: #908F8D;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  }
+  .top_footer ul li a{
+    color: #41403E;
+    font-family: Chilanka;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 150%; /* 28.5px */
+    letter-spacing: 0.19px;
+    text-decoration: none;
+  }

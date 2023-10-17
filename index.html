@@ -9,6 +9,10 @@
   <meta property="og:description" content="Best destination for your pets">
   <meta property="og:image" content="./Images/dog-logo.png">
   <link rel="icon" type="image/png" href="./Images/dog-logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chilanka&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link href="./Styles/main.css" rel="stylesheet">
 </head>
 <body>
   <header>
@@ -20,10 +24,14 @@
         <input type="search" name="search" placeholder="Search for more than 10,000 products"> 
       </label>
       <div class="top_header_right">
-        <span>Phone</span>
-          <a href="tel:98034984089">+980-34-984-089</a>
+        <div class="phone-header">
+          <span>Phone</span>
+            <a href="tel:98034984089" class="contacts-for-header">+980-34-984-089</a>
+        </div>
+        <div class="email-header">
           <span>Email</span>
-          <a href="email:waggy@gmail.com">waggy@gmail.com</a>
+            <a href="email:waggy@gmail.com" class="contacts-for-header">waggy@gmail.com</a>
+        </div>
       </div>
     </div>
     <div class="bottom_header">
@@ -56,7 +64,7 @@
       <div class="slider-item">
         <img src="./Images/huppy-dog.png" alt="dog">
         <div class="carousel-caption">
-          <p>SAVE 10 - 20 % OFF</p>
+          <p class="promotions-for-slider">SAVE 10 - 20 % OFF</p>
           <h2>Best Destination For <span>Your Pets</span></h2>
           <button>SHOP NOW</button>
         </div>
@@ -121,7 +129,7 @@
           <div class="grey-hoodie-info">
             <h4>Grey Hoodie</h4>
             <img src="./Images/Rating.png" alt="rating">
-            <span>$18.00</span>
+            <span class="price">$18.00</span>
             <div class="button-for-catalogs">
               <button>ADD TO CARD</button>
               <button><img src="./Images/like.png" alt="like"></button>
@@ -133,7 +141,7 @@
           <div class="jeans-pet-info">
             <h3>Huppy Jeans Pant</h3>
             <img src="./Images/Rating.png" alt="rating">
-            <span>$18.00</span>
+            <span class="price">$18.00</span>
             <div class="button-for-catalogs">
               <button>ADD TO CARD</button>
               <button><img src="./Images/like.png" alt="like"></button>
@@ -145,7 +153,7 @@
           <div class="shirt-pet-info">
             <h4>Tight Half T-Shirt</h4>
             <img src="./Images/Rating.png" alt="rating">
-            <span>$18.00</span>
+            <span class="price">$18.00</span>
             <div class="button-for-catalogs">
               <button>ADD TO CARD</button>
               <button><img src="./Images/like.png" alt="like"></button>
@@ -157,7 +165,7 @@
           <div class="jacket-pet-info">
             <h4>Black Thick Jacket</h4>
             <img src="./Images/Rating.png" alt="rating">
-            <span>$18.00</span>
+            <span class="price">$18.00</span>
             <div class="button-for-catalogs">
               <button>ADD TO CARD</button>
               <button><img src="./Images/like.png" alt="like"></button>
@@ -185,7 +193,7 @@
           <div class="fresh-kisses-info">
             <h4>Happy Jeans Pant</h4>
             <img src="./Images/Rating.png" alt="rating">
-            <span>$18.00</span>
+            <span class="price">$18.00</span>
             <div class="button-for-catalogs">
               <button>ADD TO CARD</button>
               <button><img src="./Images/like.png" alt="like"></button>
@@ -197,7 +205,7 @@
           <div class="bucher-info">
             <h3>Huppy Jeans Pant</h3>
             <img src="./Images/Rating.png" alt="rating">
-            <span>$18.00</span>
+            <span class="price">$18.00</span>
             <div class="button-for-catalogs">
               <button>ADD TO CARD</button>
               <button><img src="./Images/like.png" alt="like"></button>
@@ -209,7 +217,7 @@
           <div class="pulsitos-info">
             <h4>Tight Half T-Shirt</h4>
             <img src="./Images/Rating.png" alt="rating">
-            <span>$18.00</span>
+            <span class="price">$18.00</span>
             <div class="button-for-catalogs">
               <button>ADD TO CARD</button>
               <button><img src="./Images/like.png" alt="like"></button>
@@ -221,7 +229,7 @@
           <div class="bucher-for-junior-info">
             <h4>Black Thick Jacket</h4>
             <img src="./Images/Rating.png" alt="rating">
-            <span>$18.00</span>
+            <span class="price">$18.00</span>
             <div class="button-for-catalogs">
               <button>ADD TO CARD</button>
               <button><img src="./Images/like.png" alt="like"></button>
@@ -233,7 +241,7 @@
           <div class="chicken-treats-info">
             <h4>Grey Hoodie</h4>
             <img src="./Images/Rating.png" alt="rating">
-            <span>$18.00</span>
+            <span class="price">$18.00</span>
             <div class="button-for-catalogs">
               <button>ADD TO CARD</button>
               <button><img src="./Images/like.png" alt="like"></button>
@@ -245,7 +253,7 @@
           <div class="love-corn-info">
             <h4>Grey Hoodie</h4>
             <img src="./Images/Rating.png" alt="rating">
-            <span>$18.00</span>
+            <span class="price">$18.00</span>
             <div class="button-for-catalogs">
               <button>ADD TO CARD</button>
               <button><img src="./Images/like.png" alt="like"></button>
@@ -257,7 +265,7 @@
           <div class="bucher-gastrointensive-info">
             <h4>Black Thick Jacket</h4>
             <img src="./Images/Rating.png" alt="rating">
-            <span>$18.00</span>
+            <span class="price">$18.00</span>
             <div class="button-for-catalogs">
               <button>ADD TO CARD</button>
               <button><img src="./Images/like.png" alt="like"></button>
@@ -269,7 +277,7 @@
           <div class="winnary-info">
             <h4>Happy Jeans Pant</h4>
             <img src="./Images/Rating.png" alt="rating">
-            <span>$18.00</span>
+            <span class="price">$18.00</span>
             <div class="button-for-catalogs">
               <button>ADD TO CARD</button>
               <button><img src="./Images/like.png" alt="like"></button>
@@ -283,7 +291,7 @@
     <div class="container-full-weight">
       <div class="banner-sale">
         <div class="banner-sale-caption">
-          <p>Upto 40% Off</p>
+          <p class="promotion-for-banner">Upto 40% Off</p>
           <h2>CLEARANCE SALE <span>!!!</span></h2>
           <button>SHOP ALL</button>
         </div>
@@ -314,7 +322,7 @@
           <div class="best-sellings-products-grey-hoodie-info">
             <h4>Grey Hoodie</h4>
             <img src="./Images/Rating.png" alt="rating">
-            <span>$18.00</span>
+            <span class="price">$18.00</span>
             <div class="button-for-catalogs">
               <button>ADD TO CARD</button>
               <button><img src="./Images/like.png" alt="like"></button>
@@ -326,7 +334,7 @@
           <div class="best-sellings-products-happy-jeans-pant-info">
             <h3>Huppy Jeans Pant</h3>
             <img src="./Images/Rating.png" alt="rating">
-            <span>$18.00</span>
+            <span class="price">$18.00</span>
             <div class="button-for-catalogs">
               <button>ADD TO CARD</button>
               <button><img src="./Images/like.png" alt="like"></button>
@@ -338,7 +346,7 @@
           <div class="best-sellings-products-tight-half-t-shirt-info">
             <h4>Tight Half T-Shirt</h4>
             <img src="./Images/Rating.png" alt="rating">
-            <span>$18.00</span>
+            <span class="price">$18.00</span>
             <div class="button-for-catalogs">
               <button>ADD TO CARD</button>
               <button><img src="./Images/like.png" alt="like"></button>
@@ -350,7 +358,7 @@
           <div class="best-sellings-products-black-thick-jacket-info">
             <h4>Black Thick Jacket</h4>
             <img src="./Images/Rating.png" alt="rating">
-            <span>$18.00</span>
+            <span class="price">$18.00</span>
             <div class="button-for-catalogs">
               <button>ADD TO CARD</button>
               <button><img src="./Images/like.png" alt="like"></button>
@@ -362,7 +370,7 @@
   </article>
   <section class="registration-form">
     <div class="container-full-weight">
-      <h3>Get <span>20% Off</span> On First Purchase</h3>
+      <h3>Get <span class="discount-for-first-purchase">20% Off</span> On First Purchase</h3>
       <div class="registration">
         <form action="http://www.waggy.com" method="get">
           <label>
@@ -507,9 +515,9 @@
             <ul>
               <li><a href="">Home</a></li>
               <li><a href="">About Us</a></li>
-              <li><a href=""></a>Offers</li>
-              <li><a href=""></a>Servies</li>
-              <li><a href=""></a>Contact Us</li>
+              <li><a href="">Offers</a></li>
+              <li><a href="">Servies</a></li>
+              <li><a href="">Contact Us</a></li>
             </ul>
           </nav>
         </div>
@@ -517,11 +525,11 @@
           <nav>
             <h4>Help Center</h4>
             <ul>
-              <li><a href=""></a>Payments</li>
-              <li><a href=""></a>Shipping</li>
-              <li><a href=""></a>Product Returns</li>
-              <li><a href=""></a>FAQs</li>
-              <li><a href=""></a>Checkout</li>
+              <li><a href="">Payments</a></li>
+              <li><a href="">Shipping</a></li>
+              <li><a href="">Product Returns</a></li>
+              <li><a href="">FAQs</a></li>
+              <li><a href="">Checkout</a></li>
             </ul>
           </nav>
         </div>
