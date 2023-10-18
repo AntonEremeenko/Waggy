@@ -5,6 +5,12 @@
   font-style: normal;
   font-weight: 400;
 }
+.top_header input::placeholder {
+  color: #908F8D;
+font-family: Montserrat;
+font-size: 15px;
+font-weight: 400;
+  }
 .contacts-for-header {
   color: #41403E;
   font-family: Chilanka;
@@ -130,6 +136,13 @@
   font-weight: 400;
   letter-spacing: 0.55px;
 }
+.registration input::placeholder {
+  color: #908F8D;
+  font-family: Chilanka;
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: 0.34px;
+  }
 .discount-for-first-purchase {
   color: #DEAD6F;
 }
@@ -175,3 +188,9 @@ footer .container p {
     letter-spacing: 0.19px;
     text-decoration: none;
   }
+.bottom_Our-Newsletter input::placeholder {
+  color: #908F8D;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 400;
+}
