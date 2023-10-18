@@ -45,6 +45,7 @@ font-weight: 400;
   font-style: normal;
   font-weight: 400;
   letter-spacing: 2.64px;
+  width: 700px;
 }
 .carousel-caption h2 span {
   color: #DEAD6F;
@@ -82,6 +83,7 @@ font-weight: 400;
   font-size: 26px;
   font-weight: 400;
   letter-spacing: 0.26px;
+  width: 410px;
 }
 .price {
   color: #DEAD6F;
@@ -114,6 +116,7 @@ font-weight: 400;
   font-size: 75px;
   font-weight: 400;
   letter-spacing: 1.5px;
+  width: 300px;
 }
 .reviews-caption {
   color: #908F8D;
@@ -121,6 +124,7 @@ font-weight: 400;
   font-size: 36px;
   font-weight: 400;
   line-height: 150%; /* 54px */
+  width: 850px;
 }
 .reviews-caption span {
   color: #41403E;
@@ -134,7 +138,10 @@ font-weight: 400;
   font-family: Chilanka;
   font-size: 55px;
   font-weight: 400;
-  letter-spacing: 0.55px;
+  letter-spacing: 0.55px
+}
+.h-for-registration {
+  width: 500px;
 }
 .registration input::placeholder {
   color: #908F8D;
@@ -158,6 +165,7 @@ font-weight: 400;
   font-family: Montserrat;
   font-size: 16px;
   font-weight: 400;
+  width: 410px;
 }
 .blog-posts a {
   color: #908F8D;
@@ -172,12 +180,14 @@ font-weight: 400;
   font-family: Montserrat;
   font-size: 16px;
   font-weight: 400;
+  width: 300px;
 }
 footer .container p {
   color: #908F8D;
   font-family: Montserrat;
   font-size: 16px;
   font-weight: 400;
+  width: 300px;
   }
   .top_footer ul li a{
     color: #41403E;
