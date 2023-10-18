@@ -2,20 +2,16 @@
   color: #908F8D;
   font-family: 'Montserrat';
   font-size: 15px;
-  font-style: normal;
-  font-weight: 400;
 }
 .top_header input::placeholder {
   color: #908F8D;
 font-family: Montserrat;
 font-size: 15px;
-font-weight: 400;
   }
 .contacts-for-header {
   color: #41403E;
   font-family: Chilanka;
   font-size: 19px;
-  font-weight: 400;
   letter-spacing: 0.19px;
   text-decoration: none;
 }
@@ -23,8 +19,6 @@ font-weight: 400;
   color: #41403E;
   font-family: Chilanka;
   font-size: 19px;
-  font-style: normal;
-  font-weight: 400;
   letter-spacing: 0.19px;
 }
 .bottom_header ul li a {
@@ -35,7 +29,6 @@ font-weight: 400;
   color: #DEAD6F;
   font-family: Montserrat;
   font-size: 18px;
-  font-weight: 400;
   letter-spacing: 1.8px;
 }
 .carousel-caption h2 {
@@ -43,7 +36,6 @@ font-weight: 400;
   font-family: Chilanka;
   font-size: 88px;
   font-style: normal;
-  font-weight: 400;
   letter-spacing: 2.64px;
   width: 700px;
 }
@@ -51,22 +43,18 @@ font-weight: 400;
   color: #DEAD6F;
   font-family: Chilanka;
   font-size: 88px;
-  font-weight: 400;
   letter-spacing: 2.64px;
 }
  button {
   color: #41403E;
   font-family: Chilanka;
   font-size: 19px;
-  font-weight: 400;
   letter-spacing: 0.38px;
 }
 .shops a {
   color: #41403E;
   font-family: Chilanka;
   font-size: 26px;
-  font-style: normal;
-  font-weight: 400;
   letter-spacing: 0.26px;
   text-decoration: none;
 }
@@ -74,14 +62,12 @@ font-weight: 400;
   color: #41403E;
   font-family: Chilanka;
   font-size: 55px;
-  font-weight: 400;
   letter-spacing: 0.55px;
 }
 .container h4 {
   color: #41403E;
   font-family: Chilanka;
   font-size: 26px;
-  font-weight: 400;
   letter-spacing: 0.26px;
   width: 410px;
 }
@@ -100,7 +86,6 @@ font-weight: 400;
   color: #41403E;
   font-family: Chilanka;
   font-size: 17px;
-  font-weight: 400;
   letter-spacing: 0.34px;
   text-decoration: none;
 }
@@ -114,7 +99,6 @@ font-weight: 400;
   color: #41403E;
   font-family: Chilanka;
   font-size: 75px;
-  font-weight: 400;
   letter-spacing: 1.5px;
   width: 300px;
 }
@@ -122,7 +106,6 @@ font-weight: 400;
   color: #908F8D;
   font-family: Chilanka;
   font-size: 36px;
-  font-weight: 400;
   line-height: 150%; /* 54px */
   width: 850px;
 }
@@ -137,7 +120,6 @@ font-weight: 400;
   text-align: center;
   font-family: Chilanka;
   font-size: 55px;
-  font-weight: 400;
   letter-spacing: 0.55px
 }
 .h-for-registration {
@@ -147,7 +129,6 @@ font-weight: 400;
   color: #908F8D;
   font-family: Chilanka;
   font-size: 17px;
-  font-weight: 400;
   letter-spacing: 0.34px;
   }
 .discount-for-first-purchase {
@@ -157,21 +138,18 @@ font-weight: 400;
   color: #FFF;
   font-family: Chilanka;
   font-size: 19px;
-  font-weight: 400;
   letter-spacing: 0.38px;
 }
 .blog-posts p {
   color: #908F8D;
   font-family: Montserrat;
   font-size: 16px;
-  font-weight: 400;
   width: 410px;
 }
 .blog-posts a {
   color: #908F8D;
   font-family: Chilanka;
   font-size: 16px;
-  font-weight: 400;
   letter-spacing: 0.32px;
   text-decoration: none;
 }
@@ -179,21 +157,18 @@ font-weight: 400;
   color: #908F8D;
   font-family: Montserrat;
   font-size: 16px;
-  font-weight: 400;
   width: 300px;
 }
 footer .container p {
   color: #908F8D;
   font-family: Montserrat;
   font-size: 16px;
-  font-weight: 400;
   width: 300px;
   }
   .top_footer ul li a{
     color: #41403E;
     font-family: Chilanka;
     font-size: 19px;
-    font-weight: 400;
     line-height: 150%; /* 28.5px */
     letter-spacing: 0.19px;
     text-decoration: none;
@@ -202,5 +177,4 @@ footer .container p {
   color: #908F8D;
   font-family: Montserrat;
   font-size: 15px;
-  font-weight: 400;
 }
