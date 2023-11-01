@@ -161,3 +161,33 @@ footer .container p {
   color: #908F8D;
   font-family: 'Montserrat';
 }
+.top_header {
+  width: 100%;
+  max-width: 1300px;
+  margin: 28px auto;
+}
+.top-line {
+  height: 1px;
+  background: #EDEDED;
+}
+.bottom_header {
+  width: 100%;
+  max-width: 1300px;
+  margin: 10px auto;
+  margin-bottom: 19px;
+}
+.container-full-weight {
+  width: 100%;
+  max-width: 1920px;
+  margin: 150px auto;
+}
+.container {
+  width: 100%;
+  max-width: 1300px;
+  margin: 150px auto;
+}
+.gallery {
+  width: 100%;
+  max-width: 1920px;
+  margin: 150px auto;
+}
