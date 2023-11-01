@@ -1,7 +1,7 @@
 body {
   font-family: 'Chilanka';
 }
-.top_header span {
+.top_header p {
   color: #908F8D;
   font-family: 'Montserrat';
 }
@@ -164,7 +164,10 @@ footer .container p {
 .top_header {
   width: 100%;
   max-width: 1300px;
-  margin: 28px auto;
+  margin: 30px auto;
+  display: flex;
+  height: 100%;
+  max-height: 60px;
 }
 .top-line {
   height: 1px;
@@ -190,4 +193,160 @@ footer .container p {
   width: 100%;
   max-width: 1920px;
   margin: 150px auto;
+}
+.phone-header, .email-header {
+  text-align: end;
+}
+.phone-header p {
+  margin-bottom: 8px;
+}
+.email-header p {
+  margin-bottom: 8px;
+}
+.top_header_right {
+  display: flex;
+  margin: 5px 0px
+}
+.phone-header {
+  margin-right: 60px;
+  width: 170px;
+}
+.top-search input {
+  width: 470px;
+  height: 100%;
+  min-height: 50px;
+  border: 1px solid #EAEAEA;
+  border-radius: 4px;
+}
+.top-search {
+margin: auto;
+}
+.top-search input::placeholder {
+  padding-left: 25px;
+  font-family: 'Montserrat';
+  color: #908F8D;
+}
+.central-nav {
+  display: inline-flex;
+  gap: 50px;
+  margin: 10px 195px;
+  margin-top: 10px;
+}
+.central-nav a:hover {
+  color: #DEAD6F;
+}
+.bottom_header select {
+  border: none;
+  color: #41403E;
+  font-family: 'Chilanka';
+  font-size: 19px;
+  letter-spacing: 0.19px;
+  text-transform: capitalize;
+}
+.bottom_header select:hover {
+  color: #DEAD6F;
+}
+.bottom_header_right {
+  display: inline-flex;
+  gap: 40px;
+  justify-content: flex-end;
+}
+.shops {
+  display: flex;
+  justify-content: space-between;
+}
+.items-shops figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.head-pet-clothing {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.shop-all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 50px;
+  border: 1px solid #41403E;
+  border-radius: 4px;
+  background: #FFF;
+  gap: 5px;
+}
+.shop-all a {
+  color: #41403E;
+  font-family: 'Chilanka';
+  font-size: 19px;
+  letter-spacing: 0.38px;
+  text-decoration: none;
+}
+.pet-clothing .items {
+  margin-top: 30px;
+  display:inline-flex;
+  gap: 20px;
+}
+
+
+.hoodie-pet-clothing, .jeans-pet-clothing, .t-shirt-pet-clothing, .jacked-pet-clothing {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+.pet-clothing-img{
+  width: 310px;
+  height: 280px;
+background: #EEEBE5;;
+border-radius: 10px;
+}
+.pet-clothing-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 18px;
+  width: 100%;
+  max-width: 250px;
+}
+.pet-clothing-info-items {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+}
+.more-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 7px;
+}
+.button-for-catalogs {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+.add {
+  display: flex;
+  padding: 20px 30px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  border: 1px solid rgba(65, 64, 62, 0.20);
+  color: #41403E;
+  font-family: 'Chilanka';
+  font-size: 17px;
+  letter-spacing: 0.34px;
+  background: #FFF;
+}
+.like {
+height: 60px;
+padding: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+background: #FFF;
+border-radius: 4px;
+border: 1px solid rgba(65, 64, 62, 0.20);
 }
