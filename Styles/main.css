@@ -645,3 +645,9 @@ text-transform: capitalize;
         align-items: flex-start;
         gap: 5px;
       }
+      .container-photos {
+        width: 100%;
+        max-width: 1920px;
+        display: flex;
+        justify-content: space-around;
+      }
