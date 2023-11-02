@@ -92,7 +92,7 @@ font-family: 'Montserrat';
   color: #41403E;
   font-size: 75px;
   letter-spacing: 1.5px;
-  width: 300px;
+  width: 450px;
 }
 .reviews-caption {
   color: #908F8D;
@@ -274,7 +274,7 @@ margin: auto;
   padding: 30px 50px;
   border: 1px solid #41403E;
   border-radius: 4px;
-  background: #FFF;
+  background: transparent;
   gap: 5px;
 }
 .shop-all a {
@@ -376,15 +376,12 @@ border: 1px solid rgba(65, 64, 62, 0.20);
 .nav-for-pet-foodies a:hover {
   border-bottom: 2px solid #DEAD6F;
 }
-
 .pet-foodies {
   display: inline-flex;
 flex-direction: column;
 align-items: flex-start;
 gap: 30px;
 }
-
-
 .fresh-kisses-pet-foodies, .bucher-pet-foodies {
   display: flex;
   flex-direction: column;
@@ -416,9 +413,9 @@ gap: 30px;
 }
 .pet-food-info-items {
   display: flex;
-flex-direction: column;
-align-items: flex-start;
-gap: 5px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
 }
 .pet-foodies-top-catalog {
   display: flex;
@@ -443,3 +440,65 @@ gap: 5px;
   align-items: flex-start;
   gap: 20px;
 }
+.banner-sale {
+  background: #F9F3EC;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 120px;
+}
+.banner-sale-caption {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+}
+.shop-all.sale {
+width: 50%;
+}
+.head-best-sellings-products {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 30px;
+}
+.best-sellings-products-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+.best-sellings-products-house-for-cat, .best-sellings-products-buchers-pro {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  }
+  .best-sellings-products-tight-half-t-shirt, .best-sellings-products-black-thick-jacket {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  .best-sellings-products-img {
+  width: 310px;
+  height: 280px;
+  border-radius: 10px;
+  background: #EEEBE5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  .best-sellings-products-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    width: 100%;
+    max-width: 250px;
+  }
+  .best-sellings-products-items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+  }
