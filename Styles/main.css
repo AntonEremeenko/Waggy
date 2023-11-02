@@ -626,3 +626,22 @@ text-transform: capitalize;
         .blog-posts-info-read-more:hover {
           border-bottom: 3px solid rgba(222, 173, 111, 1);
         }
+.info-bloc {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+  .informations {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    width: 100%;
+    max-width: 310px;
+  }
+      .text-for-informations{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+      }
