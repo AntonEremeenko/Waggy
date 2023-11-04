@@ -11,7 +11,8 @@
   <link rel="icon" type="image/png" href="./images/dog-logo.png">
   <link href="./styles/reset.css" rel="stylesheet">
   <script src="https://kit.fontawesome.com/a5366a47e3.js" crossorigin="anonymous"></script>
-
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Chilanka&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
@@ -66,14 +67,40 @@
       </nav>
     </div>
   </header>
-  <section class="slider-wrap">
+  <section>
     <div class="container-full-weight">
-      <div class="slider-item">
-        <img src="./images/huppy-dog.png" alt="dog">
-        <div class="carousel-caption">
-          <p class="promotions-for-slider">SAVE 10 - 20 % OFF</p>
-          <h2>Best Destination For <span>Your Pets</span></h2>
-          <button>SHOP NOW</button>
+      <div class="slider-wrap">
+        <div class="slider-item">
+          <div class="slider-item-img">
+            <img src="./images/huppy-dog.png" alt="dog">
+          </div>
+          <div class="carousel-caption">
+            <p class="promotions-for-slider">SAVE 10 - 20 % OFF</p>
+            <h2>Best Destination For <span>Your Pets</span></h2>
+            <div class="shop-all carousel"><a href="#">Shop Now<img src="./images/arrow-right.png" alt="in shop"></a></div>
+          </div>
+        </div>
+        <div class="slider-item">
+          <div class="slider-item-img">
+            <img src="./images/dog-in-a-garb.png" alt="dog">
+          </div>
+          <div class="carousel-caption">
+            <p class="promotions-for-slider">SAVE 10 - 20 % OFF</p>
+            <h2>Best Destination For <span>Your Pets</span></h2>
+            <div class="shop-all carousel"><a href="#">Shop Now<img src="./images/arrow-right.png" alt="in shop"></a></div>
+          </div>
+        </div>
+        <div class="slider-item">
+          <div class="slider-item-img circle">
+            <div class="slider-item-img cat">
+            <img src="./images/cat-banner.png" alt="dog">
+            </div>
+          </div>
+          <div class="carousel-caption">
+            <p class="promotions-for-slider">SAVE 10 - 20 % OFF</p>
+            <h2>Best Destination For <span>Your Pets</span></h2>
+            <div class="shop-all carousel"><a href="#">Shop Now<img src="./images/arrow-right.png" alt="in shop"></a></div>
+          </div>
         </div>
       </div>
     </div>
@@ -406,17 +433,43 @@
       </div>
     </div>
   </section>
-  <section class="slider-reviews">
+
+  <section>
     <div class="container">
-      <div class="reviews">
-        <img src="./images/“.png" alt="quotes">
-        <div class="reviews-caption">
-          <p>At the core of our practice is the idea that cities are the incubators of our greatest achievements, and the best hope for a sustainable future.</p>
-          <span>Joshima Lin</span>
+      <div class="slider-reviews">
+
+        <div class="reviews">
+          <div class="slider-reviews-img">
+            <img src="./images/“.png" alt="quotes">
+          </div>
+          <div class="reviews-caption">
+            <p>The difference between friends and pets is that friends we allow into our company, pets we allow into our solitude.</p>
+            <span>Robert Brault</span>
+          </div>
         </div>
+        <div class="reviews">
+          <div class="slider-reviews-img">
+            <img src="./images/“.png" alt="quotes">
+          </div>
+          <div class="reviews-caption">
+            <p>Happiness is a warm puppy.</p>
+            <span>Charles Schultz</span>
+          </div>
+        </div>
+        <div class="reviews">
+          <div class="slider-reviews-img">
+            <img src="./images/“.png" alt="quotes">
+          </div>
+          <div class="reviews-caption">
+            <p>Animals are one of the most beautiful gifts we have.</p>
+            <span>Alyssa Milano</span>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>
+
   <article class="Catalog-card">
     <div class="container">
       <div class="best-sellings-products">
@@ -643,7 +696,6 @@
   <footer>
     <div class="container">
       <div class="top_footer">
-        
         <div class="social-media">
           <div class="top_social-media">
             <a href="">
@@ -710,5 +762,27 @@
       </div>
     </div>
   </footer>
+
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script>
+    $(document).ready(function(){
+  $('.slider-wrap').slick({
+  dots: true,
+  autoplay: true,
+  autoplaySpeed: 2000,
+  arrows: false,
+  });
+});
+  </script>
+ <script>
+  $(document).ready(function(){
+$('.slider-reviews').slick({
+dots: true,
+arrows: false,
+});
+});
+</script>
 </body>
 </html>
