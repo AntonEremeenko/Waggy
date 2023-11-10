@@ -183,7 +183,10 @@ footer .container p {
   color: #908F8D;
   font-family: 'Montserrat';
   font-size: 16px;
-  width: 300px;
+  }
+  .top_social-media p {
+    width: 100%;
+    max-width: 300px;
   }
   .top_footer ul li a{
     color: #41403E;
@@ -736,6 +739,11 @@ font-size: 19px;
   margin-top: 100px;
   border-top: 1px solid #D9D9D8;
   padding: 30px 0px;
+}
+.bottom_footer a {
+  color: #908F8D;
+  font-weight: 700;
+  text-decoration-line: underline;
 }
 .header-serch {
   background-image: url(../images/search.png);
