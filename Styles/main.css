@@ -346,6 +346,9 @@ margin: auto;
   letter-spacing: 0.38px;
   text-transform: uppercase;
 }
+.shop-all span {
+  padding-top: 6px;
+}
 .shop-all img {
   margin-left: 5px;
   width: 18px;
