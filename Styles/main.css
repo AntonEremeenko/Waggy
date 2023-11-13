@@ -165,7 +165,7 @@ button {
 .posts-img-info {
   border-radius: 10px;
   background: #FFF;
-  padding: 10px 24px;
+  padding: 16px 25px 5px 25px;
   position: absolute;
   top: 10px;
   left: 10px;
@@ -728,7 +728,6 @@ font-size: 19px;
   gap: 14px;
   width: 100%;
   max-width: 145px;
-  margin-left: 2px;
 }
 .quick-links a:hover {
   color: #DEAD6F;
@@ -749,6 +748,7 @@ font-size: 19px;
   flex-direction: column;
   align-items: flex-start;
   gap: 27px;
+  margin-right: -2px;
 }
 .top_our-newsletter {
   display: flex;
@@ -770,7 +770,7 @@ font-size: 19px;
   max-width: 313px;
   box-sizing: border-box;
   border: 1px solid #D9D9D8;
-  padding-left: 20px;
+  padding-left: 17px;
   background-image: url(../images/image.png);
   background-size: 42px;
   background-repeat: no-repeat;
