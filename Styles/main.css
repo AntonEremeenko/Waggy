@@ -254,10 +254,10 @@ footer .container p {
 }
 .top_header_right {
   display: flex;
-  margin: 5px 0px
+  margin: 5px -8px 5px 0px;
 }
 .phone-header {
-  margin-right: 60px;
+  margin-right: 68px;
 }
 .top-search input {
   width: 470px;
